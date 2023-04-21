@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/fxtec/pro1x/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_pro1x
+PRODUCT_NAME := lmodroid_pro1x
 PRODUCT_DEVICE := pro1x
 PRODUCT_MANUFACTURER := Fx_tec_Pro1X
 PRODUCT_BRAND := Fx_tec_Pro1X
