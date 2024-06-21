@@ -6,8 +6,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lmodroid_pro1x.mk
-
-COMMON_LUNCH_CHOICES := \
-    lmodroid_pro1x-eng \
-    lmodroid_pro1x-user \
-    lmodroid_pro1x-userdebug
